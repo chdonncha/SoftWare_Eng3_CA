@@ -1,7 +1,6 @@
 # Software Engineering - Web App Plan
-------------------------------------------------------------------------------------
+
 ## App Description
-------------------------------------------------------------------------------------
 
 It is a social media web app that allows people to debate topics using various
 utilities with a goal to allow users to create threads or debates that people
@@ -34,9 +33,7 @@ database. This information can also be used to provide information
 such as the top trending topics at the moment based on on how many
 users have voted on the app in the recent week.
 	
-------------------------------------------------------------------------------------
 Database Description
-------------------------------------------------------------------------------------
 
 The tables that the database will need to contain information on are:
 		 
