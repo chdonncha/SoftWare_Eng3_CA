@@ -33,37 +33,11 @@ database. This information can also be used to provide information
 such as the top trending topics at the moment based on on how many
 users have voted on the app in the recent week.
 	
-# Database Description
+# Database Diagram
 
 The tables that the database will need to contain information on are:
 		 
-		- User
-			- User_id (varchar2(20))
-			- Password (varchar2(20))
-			- Email (varchar2(40)
-			- Debates_created (int)
-			- Debates_posted_on (varchar2)
-
-		- Topic
-			- Topic_id(varchar2(20))
-			- Name (varchar2(40))
-
-		- Debate
-			- Debate_id (varchar2)
-			- Topic(fk) (varchar2)
-			- Vote_options (varchar2)
-			- Date_Created (date)
-
-		- Debate_Vote
-			- Debate_id (fk) (varchar2)
-			- User_id (fk) (varchar(20))
-			- Vote_selected()
-
-		- Debate_Comment
-			- Debate_id (fk) (varchar(20))
-			- User_id (fk) (varchar2(20))
-			- Comment_id (varchar2(20))
-			- Comment_Content (varchar2(200))
+![Image of Yaktocat](https://github.com/chdonncha/SoftWare_Eng3_CA/tree/master/Images/DB_Diagram.png)
 
 In the User account screen, a select statement will be used to return the number
 of comments and the number of polls the user have posted on, returning a link
