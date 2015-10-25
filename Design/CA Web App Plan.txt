@@ -46,14 +46,15 @@
 		 
 		- User
 			- User_id (varchar2(20))
+			- Username (varchar2(40))
 			- Password (varchar2(20))
 			- Email (varchar2(40)
-			- Debates_created (int)
-			- Debates_posted_on (varchar2)
+				?- Debates_created (int)
+				?- Debates_posted_on (varchar2)
 
-		- Topic
-			- Topic_id(varchar2(20))
-			- Name (varchar2(40))
+			?- Topic
+				?- Topic_id(varchar2(20))
+				?- Name (varchar2(40))
 
 		- Debate
 			- Debate_id (varchar2)
