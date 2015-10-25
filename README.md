@@ -38,6 +38,7 @@ users have voted on the app in the recent week.
 The tables that the database will need to contain information on are:
 		 
 ![Image of diagram](https://github.com/chdonncha/SoftWare_Eng3_CA/tree/master/Images/DB_Diagram.png)
+Format: ![Alt Text](url)
 
 In the User account screen, a select statement will be used to return the number
 of comments and the number of polls the user have posted on, returning a link
