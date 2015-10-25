@@ -33,6 +33,10 @@ database. This information can also be used to provide information
 such as the top trending topics at the moment based on on how many
 users have voted on the app in the recent week.
 	
+# UseCase Diagram
+
+![Image of usecase](Images/USECASE.png)
+
 # Database Diagram
 
 The tables that the database will need to contain information on are:
